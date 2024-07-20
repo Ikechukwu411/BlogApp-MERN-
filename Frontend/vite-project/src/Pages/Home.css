@@ -1,0 +1,39 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css"; */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.box {
+  width: 90%;
+
+  margin: auto auto;
+  background-color: white !important;
+}
+#boxId {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-family: "Roboto", "sans-serif";
+}
+.bg-color-button {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: none;
+  padding: 1rem;
+  width: 40%;
+  min-width: 180px;
+}
+.button {
+  border-radius: none;
+}
+.bg-color-sec {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+}
